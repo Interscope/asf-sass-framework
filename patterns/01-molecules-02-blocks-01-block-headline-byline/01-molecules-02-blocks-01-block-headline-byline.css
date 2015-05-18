@@ -1,0 +1,44 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, div, h2 { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+a { 
+	color: #333333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover, a:focus { 
+	color: gray;
+}
+
+h2 { 
+	line-height: 1.2;
+}
+
+.block { 
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+

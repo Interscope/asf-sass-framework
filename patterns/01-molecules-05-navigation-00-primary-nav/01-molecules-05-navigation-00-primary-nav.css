@@ -1,0 +1,76 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, ul, li, nav { 
+	margin: 0;
+	padding: 0;
+}
+
+nav { 
+	display: block;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+a { 
+	color: #333333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover, a:focus { 
+	color: gray;
+}
+
+ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav { 
+	clear: both;
+	overflow: hidden;
+	max-height: 0;
+}
+
+.nav a { 
+	display: block;
+	padding: 1em;
+	border-top: 1px solid #eeeeee;
+}
+
+@media all and (min-width: 46.8em) {
+	.nav { 
+		max-height: none;
+		float: right;
+		clear: none;
+	}
+
+	.nav li { 
+		float: left;
+	}
+
+	.nav a { 
+		border: 0;
+	}
+
+
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+

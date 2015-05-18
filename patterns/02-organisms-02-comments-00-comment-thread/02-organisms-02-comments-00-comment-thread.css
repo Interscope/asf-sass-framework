@@ -1,0 +1,144 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, div, h2, h4, p, ol, ul, li, form, label, section { 
+	margin: 0;
+	padding: 0;
+}
+
+section { 
+	display: block;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+a { 
+	color: #333333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover, a:focus { 
+	color: gray;
+}
+
+h2 { 
+	line-height: 1.2;
+}
+
+p { 
+	margin-bottom: 1em;
+}
+
+ol, ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img { 
+	max-width: 100%;
+	height: auto;
+}
+
+fieldset { 
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+label { 
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+input, textarea { 
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0 1px 0;
+}
+
+input, textarea { 
+	width: 100%;
+	border: 1px solid gray;
+	padding: 0.5em 0.65rem;
+}
+
+input[type=text], input[type=url], textarea { 
+	-webkit-appearance: none;
+}
+
+.field-container { 
+	margin-bottom: 1em;
+}
+
+.pagination { 
+	overflow: hidden;
+}
+
+.pagination li { 
+	float: left;
+	border-right: 1px solid #eeeeee;
+}
+
+.pagination li:last-child { 
+	border: 0;
+}
+
+.pagination a { 
+	padding: 1em;
+}
+
+.section { 
+	margin: 0 0 1em;
+}
+
+.section-title { 
+	margin-bottom: 0.5em;
+}
+
+.comments li { 
+	margin-bottom: 1em;
+}
+
+.comment-container { 
+	overflow: hidden;
+	margin-bottom: 1em;
+	list-style: none;
+}
+
+.comment-meta { 
+	float: left;
+	width: 6.5em;
+}
+
+.comment-meta img { 
+	display: block;
+	border: 1px solid #eeeeee;
+	margin-bottom: 0.5em;
+}
+
+.comment-name { 
+	font-size: 0.75em;
+}
+
+.comment-text { 
+	margin-left: 9em;
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+

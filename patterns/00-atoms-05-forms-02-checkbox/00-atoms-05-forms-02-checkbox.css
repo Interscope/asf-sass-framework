@@ -1,0 +1,65 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, ul, li, form, legend, label { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+abbr { 
+	border-bottom: 1px dotted gray;
+	cursor: help;
+}
+
+ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+form ul { 
+	list-style: none;
+	margin-left: 0;
+}
+
+fieldset { 
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+label { 
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+input { 
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0 1px 0;
+}
+
+input { 
+	width: 100%;
+	border: 1px solid gray;
+	padding: 0.5em 0.65rem;
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+

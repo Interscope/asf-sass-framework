@@ -1,0 +1,89 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, ul, li { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.icon-twitter:before, .icon-stumbleupon:before, .icon-pinterest:before, .icon-linkedin:before, .icon-google-plus:before, .icon-search:before, .icon-play:before, .icon-facebook:before, .icon-feed:before, .icon-youtube:before { 
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-twitter:before { 
+	content: &quot;\74&quot;;
+}
+
+.icon-stumbleupon:before { 
+	content: &quot;\75&quot;;
+}
+
+.icon-pinterest:before { 
+	content: &quot;\70&quot;;
+}
+
+.icon-linkedin:before { 
+	content: &quot;\69&quot;;
+}
+
+.icon-google-plus:before { 
+	content: &quot;\67&quot;;
+}
+
+.icon-search:before { 
+	content: &quot;\73&quot;;
+}
+
+.icon-play:before { 
+	content: &quot;\61&quot;;
+	font-size: 0.7rem;
+	padding-left: 0.2em;
+}
+
+.icon-facebook:before { 
+	content: &quot;\66&quot;;
+}
+
+.icon-feed:before { 
+	content: &quot;\27&quot;;
+}
+
+.icon-youtube:before { 
+	content: &quot;\79&quot;;
+}
+
+.inline-list li { 
+	display: inline-block;
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+

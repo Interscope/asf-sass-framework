@@ -1,0 +1,83 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, div, label { 
+	margin: 0;
+	padding: 0;
+}
+
+.valid { 
+	color: #089e00;
+}
+
+.error { 
+	color: red;
+}
+
+body { 
+	background: white;
+	font: 100%/1.5 &quot;HelveticaNeue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333333;
+}
+
+abbr { 
+	border-bottom: 1px dotted gray;
+	cursor: help;
+}
+
+fieldset { 
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+label { 
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+input, textarea { 
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0 1px 0;
+}
+
+input, textarea { 
+	width: 100%;
+	border: 1px solid gray;
+	padding: 0.5em 0.65rem;
+}
+
+input[type=text], input[type=search], input[type=url], input[type=number], textarea { 
+	-webkit-appearance: none;
+}
+
+input[type=&quot;search&quot;] { 
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+input[type=&quot;search&quot;]::-webkit-search-decoration { 
+	-webkit-appearance: none;
+}
+
+.field-container { 
+	margin-bottom: 1em;
+}
+
+.is-valid { 
+	border-color: #089e00;
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+
